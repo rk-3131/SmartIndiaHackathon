@@ -1,0 +1,178 @@
+*{
+    box-sizing:unset;
+}
+body{
+    margin-right: 10vw;
+    margin-left: 10vw;
+    background-color: blanchedalmond;
+}
+h1{
+    text-align: center;
+    font-size: 35px;
+    color: brown;
+    font-family: sans-serif;
+}
+.head{
+    display: flex;
+    margin: auto;
+    /* margin-left: 5vw; */
+    background-color: #ffc076;
+    width: 80vw;
+}
+.head .Satya{
+    width: 10vw;
+}
+.head .GovtLogo{
+    width: 10vw;
+    float:right;
+}
+p{
+    font-size: 25px;
+    text-align: center;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+@media screen and (max-width:600px) {
+    .boxes{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:600px){
+    .box1, .box2, .box3{
+        width: 80vw;
+    }
+}
+@media screen and (max-width:500px) {
+    .head .Satya{
+        width: 7vw;
+        height: 15vh;
+    }
+    .head .GovtLogo{
+        width: 7vw;
+        height: 15vh;
+        float:right;
+    }
+    .name{
+        font-size: 20px;
+    }
+    .head{
+        height: auto;
+    }
+    p{
+        font-size: 15px;
+        text-align: center;
+    }
+    .login{
+        display: flex;
+        width: 50vw;
+        height: auto;
+        margin-top: 5vh;
+        margin-left: 0vw;
+        border: 2px solid black;
+        border-radius: 5vh;
+        padding: 2vh;
+    }
+    
+}
+.boxes :hover{
+    background-color: rgb(233, 252, 252);
+}
+.box1, .box2, .box3{
+    
+    margin-top: 5vh;
+    margin-left: 0vw;
+    margin-right: 1vw;
+    height: auto;
+    padding: 1vw;
+    border: 2px solid red;
+    border-radius: 5vw;
+    
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(247, 40, 40);
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    font-size: 25px;
+}
+#Id{
+    width: 100%;
+}
+#Pass{
+    width: 100%;
+}
+.login{
+    display: flex;
+    width: 50vw;
+    height: auto;
+    margin-top: 5vh;
+    margin-left: 5vw;
+    border: 2px solid black;
+    border-radius: 10vh;
+    padding: 5vh;
+}
+.input{
+    font-size: 20px;
+    text-align: left;
+
+}
+
+@media screen and (max-width:400px) {
+    .login{
+        width: 100%;
+        margin-left: 0%;
+        padding: 2vh;
+    }
+    .head{
+        width: 100%;
+    }
+
+}
+@media screen and (max-width:300px) {
+    body{
+        padding: 0px;
+    }
+    .head{
+        width: 100%;
+        
+    }
+    
+    .head h1{
+        font-size: 15px;
+    }
+    .head .Satya{
+        height: 10vh;
+    }
+    .head .GovtLogo{
+        height: 10vh;
+    }
+    p{
+        font-size: 12.5px;
+    }
+    
+}
+.input p{
+    font-size: 25px;
+}
+footer{
+    font-size: 15px;
+    text-align: center;
+    
+}
+input[type=button]{
+    color: wheat;
+    background-color: black;
+    padding: 0.5vh;
+    margin: 1vh;
+    border: 1px solid black;
+    border-radius: 5px ;
+}
