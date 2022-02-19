@@ -137,6 +137,13 @@ h2{
     }
 
 }
+@media screen and (min-width:600px){
+    .login{
+        width: 50vh;
+        margin: auto;
+    }
+
+}
 @media screen and (max-width:300px) {
     body{
         padding: 0px;
