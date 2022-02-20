@@ -21,6 +21,8 @@ h1{
     /* margin-left: 5vw; */
     background-color: #ffc076;
     width: 80vw;
+    border: 2px solid red;
+    border-radius: 3vh;
 }
 .head .Satya{
     width: 10vw;
@@ -131,19 +133,20 @@ h2{
 
 @media screen and (max-width:400px) {
     .login{
-        width: 100%;
+        width: 80%;
         margin-left: 0%;
-        padding: 2vh;
+        padding: 1vh;
     }
     .head{
         width: 100%;
     }
     #Id, #fname, #lname, #Pass, #email, #phone{
-        width: 100%;
+        width: 80%;
         height: 15px;
     }
     a{
         font-size: 12px;
+        padding: 5vh;
     }
 
 }
